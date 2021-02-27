@@ -1,0 +1,11 @@
+{
+"QuizQs": 
+        {
+            "question":"What is your name?",
+            "answerChoiceA":"Mike",
+            "answerChoiceB":"Carl",
+            "answerChoiceC":"random",
+            "correctAnswer":"Mike"
+        },
+    "quiztopic":"names"
+}

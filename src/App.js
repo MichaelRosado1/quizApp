@@ -1,8 +1,13 @@
 import React from 'react';
+import data from './data.json';
+import QuizTopic from './QuizTopic';
+import Quizquestions from './Quizquestions';
 function App() {
+
   return (
     <div className="App">
-      <h1>hello, world</h1>
+      <QuizTopic data={data.quiztopic}/>      
+      <Quizquestions questions={data.QuizQs} />
     </div>
   );
 }
